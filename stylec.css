@@ -2,13 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 body{
-    min-height:100vh;
+    background-color: rgba(75,
+        176,
+        55);
+}
+.main{
+    min-height:20vh;
     background-color:white;
     display: flex;
      justify-content: center;
      align-items: center;
+     margin-top: 0;
+    background-color: rgb(75,
+        176,
+        55);
 }
 .calculator{
     width: 300px;
@@ -56,4 +66,13 @@ button{
 }
 .btn-clear{
     background-color:red;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin: 5%;
+    font-family: sans-serif;
+    letter-spacing:3px;
+   
+    padding:20px;
 }

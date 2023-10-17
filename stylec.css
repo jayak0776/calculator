@@ -4,28 +4,19 @@
     box-sizing: border-box;
    
 }
-body{
-    background-color: rgba(75,
-        176,
-        55);
-}
 .main{
-    min-height:20vh;
-    background-color:white;
+    height: 100vh;
     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-top: 0;
-    background-color: rgb(75,
-        176,
-        55);
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(54, 82, 93);
 }
 .calculator{
     width: 300px;
     height: 500px;
     box-shadow: 4px 4px 30px rgba(0,0,0,0.3);
     border-radius: 12px;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(10, 40, 51);
     overflow: hidden;
 }
 form input {
